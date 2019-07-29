@@ -5,8 +5,8 @@ The dataset contains the samples collected as part of the "Entrance Mirror Exper
 Davide, Bacciu; Maurizio, Di Rocco; Mauro, Dragone; Claudio, Gallicchio; Alessio, Micheli; Alessandro, Saffiotti, "An Ambient Intelligence Approach for Learning in Smart Robotic Environments" Computational Intelligence, 2019
 
 The folder contains 65 csv files, one for each sample in the dataset, partitioned in 2 subfolders:
-*"./dataCurved" Contains samples related to curved navigation trajectories which are those where the laser-based navigation quality is influenced by the presence of the mirror.
-*"./dataStraight" Contains samples related to stright navigation trajectories where the impact of mirror presence is negligible.
+* "./dataCurved" Contains samples related to curved navigation trajectories which are those where the laser-based navigation quality is influenced by the presence of the mirror.
+* "./dataStraight" Contains samples related to stright navigation trajectories where the impact of mirror presence is negligible.
 
 Each sample file mirror$i.csv (where $i is the sample number) contains a comma separated list of 27 input features plus the associated target, that are:
 * The reading of the light, PIR, temperature and humidity transducers of the 6 WSN motes deployed in the experiment, for a total of 24 features.
