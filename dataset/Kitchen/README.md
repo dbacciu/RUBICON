@@ -4,7 +4,7 @@ The dataset contains the samples collected as part of the "Kitchen Cleaning Expe
 
 Davide, Bacciu; Maurizio, Di Rocco; Mauro, Dragone; Claudio, Gallicchio; Alessio, Micheli; Alessandro, Saffiotti, "An Ambient Intelligence Approach for Learning in Smart Robotic Environments" Computational Intelligence, 2019
 
-The "./Data" folder contains 80 csv files, one for each sample in the dataset.
+The folder contains 80 csv files, one for each sample in the dataset.
 
 Each sample file kitchen$i.csv (where $i is the sample number) contains a comma separated list of 27 input features plus the associated target, that are:
 * The reading of the light, PIR, temperature and humidity transducers of the 6 WSN motes deployed in the experiment, for a total of 24 features.
